@@ -2,7 +2,7 @@ import sys
 import typing
 
 
-def main() -> None:
+def main() -> typing.Optional[None]:
     error = 0
     if len(sys.argv) != 2:
         print("Usage: ft_ancient_text.py <file>")
